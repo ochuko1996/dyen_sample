@@ -1,0 +1,81 @@
+*{
+    /* box-sizing: b */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+h1, h2, h3, h4, h5, h6, p, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #E5E5E5;
+    position: relative;
+    z-index: 1;
+    height: 90vh;
+}
+.big-div{
+    width: 50%;
+}
+.big-text{
+    font-size: 60px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+.sm-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4a4a4a;
+}
+.cta-explore{
+    background: #FFC200;
+    color: #212525;
+    height: 62px;
+    width: 212px;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.btn-cont{
+    display: flex;
+    align-items: center; 
+    margin-top: 20px; 
+}
+.cta-watch{
+    border: none;
+    background-color: #E5E5E5;
+    color: #868686;
+    margin-left: 25px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    align-items: center;
+    display: flex;
+}
+.three-ad{
+    position: absolute;
+    width: 395px;
+    height: 130px;
+    left: 14%;
+    top: 90%;
+    z-index: 3;
+    background: #ffff;
+}
+/* .group-shape{
+    padding-top: -10px;
+} */
+
+
+
+
+
